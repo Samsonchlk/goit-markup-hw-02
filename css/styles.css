@@ -22,6 +22,9 @@ a {
   text-decoration: none;
   color: var(--prmeri-text-color);
 }
+button {
+  border: 0px;
+}
 .blue {
   color: var(--hover-focus-button);
 }
@@ -94,45 +97,45 @@ a {
 }
 .services__title {
   font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em
-color: var(var(--prmeri-text-color)) ;
-}
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em
+  color: var(var(--prmeri-text-color)) ;
+  }
 .services__icon {
   width: 370px;
-height: 294px;
+  height: 294px;
 }
 .team {
   background-color:var(--background-team-color) ;
 }
 .team__title {
   font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-letter-spacing: 0.03em;
-color:var(--prmeri-text-color) ;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color:var(--prmeri-text-color) ;
 }
 .team__icon {
   width: 270px;
-height: 260px;
+  height: 260px;
 }
 .team__subtitle {
   font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: var(--prmeri-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--prmeri-text-color);
 }
 .team__text {
   font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-color: var(--grey-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--grey-text-color);
 }
 .footer {
   background-color: var(--background-color-hero);
@@ -152,5 +155,38 @@ color: var(--grey-text-color);
   line-height: 24px;
   color: var(--phone-email-color);
 }
+/* PORTFOLIO */
 
-
+.portfolio__button {
+  color: var(--prmeri-text-color);
+  background-color: var(--phone-email-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 3px;
+  
+}
+.portfolio__button:hover,
+.portfolio__button:focus {
+  background-color: var(--hover-focus-button);
+  color: var(--button-hero-text);
+}
+.portfolio__icon {
+  width: 370px;
+  height: 294px;
+}
+.portfolio__subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--prmeri-text-color);
+  }
+.portfolio__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--grey-text-color);
+  }
