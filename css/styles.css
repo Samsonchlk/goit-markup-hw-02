@@ -1,24 +1,24 @@
 :root {
-  --prmeri-text-color: rgba(33, 33, 33, 1);
-  --hover-focus-button: rgba(33, 150, 243, 1);
-  --logo-text-title: rgba(0, 0, 0, 1);
-  --grey-text-color: rgba(117, 117, 117, 1);
-  --button-hero-text: rgba(255, 255, 255, 1);
-  --background-color-hero: rgba(47, 48, 58, 1);
-  --box-shadow-color: rgba(0, 0, 0, 0.15);
-  --background-team-color: rgba(245, 244, 250, 1);
-  --phone-email-color: rgb(184 184 184);
+  --prmeri-text-color: #212121;
+  --hover-focus-button: #2196f3;
+  --logo-text-title: #000000;
+  --desc-text-color: #757575;
+  --button-hero-text: #ffffff;
+  --background-color-hero: #2f303a;
+  --box-shadow-color: #00000026;
+  --background-team-color: #f5f4fa;
+  --phone-email-color: #b8b8b8;
 }
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: var(--prmeri-text-color);
   background-color: var(--button-hero-text);
+  font-size: 14px;
 }
-li {
+ .marker{
   list-style-type: none;
 }
-a {
+.link {
   text-decoration: none;
   color: var(--prmeri-text-color);
 }
@@ -29,8 +29,7 @@ button {
   color: var(--hover-focus-button);
 }
 .logo {
-  font-family: Raleway;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -41,46 +40,39 @@ button {
   color: var(--hover-focus-button);
 }
 .header__link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
 .text {
-  color: var(--grey-text-color);
+  color: var(--desc-text-color);
 }
 .hero {
   background-color: var(--background-color-hero);
 }
 .hero__title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 2.16;
   color: var(--button-hero-text);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 0%;
 }
 .hero__button {
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 2.15;
   color: var(--button-hero-text);
   background: var(--hover-focus-button);
   box-shadow: 0px 4px 4px var(--box-shadow-color);
   border-radius: 4px;
-  width: 200px;
-  height: 50px;
 }
 .advantages__hidden {
   display: none;
 }
 .advantages__subtitle {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -88,15 +80,13 @@ button {
   color: var(--prmeri-text-color);
 }
 .advantages__text {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--grey-text-color);
+  color: var(--desc-text-color);
 }
 .services__title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -112,7 +102,6 @@ button {
   background-color:var(--background-team-color) ;
 }
 .team__title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -124,24 +113,21 @@ button {
   height: 260px;
 }
 .team__subtitle {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: var(--prmeri-text-color);
 }
 .team__text {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: var(--grey-text-color);
+  color: var(--desc-text-color);
 }
 .footer {
   background-color: var(--background-color-hero);
 }
 .footer__text {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -149,7 +135,6 @@ button {
 }
 
 .footer__mail, .footer__phone {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -160,7 +145,6 @@ button {
 .portfolio__button {
   color: var(--prmeri-text-color);
   background-color: var(--phone-email-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -172,21 +156,15 @@ button {
   background-color: var(--hover-focus-button);
   color: var(--button-hero-text);
 }
-.portfolio__icon {
-  width: 370px;
-  height: 294px;
-}
 .portfolio__subtitle {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
   color: var(--prmeri-text-color);
   }
 .portfolio__text {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  color: var(--grey-text-color);
+  color: var(--desc-text-color);
   }
