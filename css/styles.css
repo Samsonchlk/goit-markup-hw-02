@@ -94,10 +94,6 @@ button {
   letter-spacing: 0.03em
   color: var(var(--prmeri-text-color)) ;
   }
-.services__icon {
-  width: 370px;
-  height: 294px;
-}
 .team {
   background-color:var(--background-team-color) ;
 }
