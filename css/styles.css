@@ -7,7 +7,10 @@
   --background-color-hero: #2f303a;
   --box-shadow-color: #00000026;
   --background-team-color: #f5f4fa;
-  --phone-email-color: #b8b8b8;
+  --phone-email-color: rgba(255, 255, 255, 0.6);
+  --back-color-btn: #F5F4FA; 
+;
+;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -60,11 +63,18 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.hero__button::first-letter{
+  text-transform: uppercase;
+}
 .hero__button {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: normal;
-  color: var(--button-hero-text);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+}
+.button {
+   color: var(--button-hero-text);
   background: var(--hover-focus-button);
   box-shadow: 0px 4px 4px var(--box-shadow-color);
   border-radius: 4px;
@@ -73,6 +83,7 @@ button {
   display: none;
 }
 .advantages__subtitle {
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   line-height: normal;
@@ -92,11 +103,8 @@ button {
   line-height: normal;
   text-align: center;
   letter-spacing: 0.03em
-  color: var(var(--prmeri-text-color)) ;
+  color: var(--prmeri-text-color);
   }
-.team {
-  background-color:var(--background-team-color) ;
-}
 .team__title {
   font-weight: bold;
   font-size: 36px;
@@ -124,27 +132,44 @@ button {
   background-color: var(--background-color-hero);
 }
 .footer__text {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: normal;
   color: var(--button-hero-text);
 }
 
-.footer__mail, .footer__phone {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: normal;
+.footer__contact {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
   color: var(--phone-email-color);
+}
+.footer__contact:hover,
+.footer__contact:focus {
+  color: var(--hover-focus-button);
+}
+.footer__logo {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--button-hero-text);
 }
 /* PORTFOLIO */
 
 .portfolio__button {
   color: var(--prmeri-text-color);
-  background-color: var(--phone-email-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: normal;
-  border-radius: 3px;
+  background-color: var(--back-color-btn);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+  cursor: pointer;
   
 }
 .portfolio__button:hover,
@@ -164,5 +189,3 @@ button {
   line-height: normal;
   color: var(--desc-text-color);
   }
-/* Я не понимаю как записывать line-height через множитель, 
-обьясните пожалуйста! Я пока что везде написал значения normal.  */
